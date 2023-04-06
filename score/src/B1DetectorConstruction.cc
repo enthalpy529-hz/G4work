@@ -129,172 +129,35 @@ G4VPhysicalVolume* B1DetectorConstruction::Construct()
                           0,
                           checkOverlaps);
     
-    //lung
-    G4double Lung_sizeX = 10.*cm;
-    G4double Lung_sizeY = 14.*cm;
-    G4double Lung_sizeZ = 20.*cm;
-
-
-    //lung1
-    G4Box* solidLung1 = new G4Box(
-        "Lung1", 0.5*Lung_sizeX, 0.5*Lung_sizeY, 0.5*Lung_sizeZ
+    //cube2
+    G4Box* cube = new G4Box(
+        "cube", 0.5*part_sizeX, 0.5*part_sizeY, 0.5*part_sizeZ
     );
 
-    G4LogicalVolume* logicLung1 = 
-        new G4LogicalVolume(solidLung1,
-                            Lung_mat,
-                            "Lung1");
+    G4LogicalVolume* logiccube = 
+        new G4LogicalVolume(cube,
+                            World_mat,
+                            "cube");
 
- 
-    new G4PVPlacement(0,
-                          G4ThreeVector(-7.*cm,0.*cm,0.*cm),
-                          logicLung1,
-                          "Lung1",
-                          logicBody,
+G4double pos_X = -(part_sizeX*(num-1)/2);
+G4double pos_Y = -(part_sizeY*(num-1)/2);
+G4double pos_Z = -(part_sizeZ*(num-1)/2);
+
+for (G4int ixnum = 0; ixnum < num ; ixnum = ixnum+1){
+    for (G4int iynum = 0; iynum < num ; iynum = iynum+1){
+        for (G4int iznum = 0; iznum < num ; iznum = iznum+1){
+               new G4PVPlacement(0,
+                          G4ThreeVector(pos_X+ixnum*part_sizeX,pos_Y+iynum*part_sizeY,pos_Z+iznum*part_sizeZ),
+                          logic2,
+                          "cube",
+                          logiccube,
                           false,
                           0,
                           checkOverlaps);
 
 
-    //lung2
-    G4Box* solidLung2 = new G4Box(
-        "Lung2", 0.5*Lung_sizeX, 0.5*Lung_sizeY, 0.5*Lung_sizeZ
-    );
+}}}         
 
-    G4LogicalVolume* logicLung2 = 
-        new G4LogicalVolume(solidLung2,
-                            Lung_mat,
-                            "Lung2");
-
-  
-        new G4PVPlacement(0,
-                          G4ThreeVector(7.*cm,0.*cm,0.*cm),
-                          logicLung2,
-                          "Lung2",
-                          logicBody,
-                          false,
-                          0,
-                          checkOverlaps);
-
-
-    //Esphagus1   
-    G4int angle_num = 12;
-    G4int z_num = 6;   
-    
-    G4double hz1 = 3./z_num*cm;
-    G4double dangle = 360./angle_num *deg;
-
-    G4double z_pos = -(z_num-1)*hz1/2;
-
-    G4double innerRadius = 0.75*cm;
-    G4double outerRadius = 1.*cm;
-    G4double startAngle = 0.*deg;
-    G4double spanningAngle = dangle*deg;
-    
-    G4Tubs* solidEsphagus1 = new G4Tubs("Esphagus1", 
-                                        innerRadius, 
-                                        outerRadius, 
-                                        0.5*hz1,
-                                        startAngle,
-                                        spanningAngle);
-
-    G4LogicalVolume* logicEsphagus1 = 
-        new G4LogicalVolume(solidEsphagus1,
-                            Esphagus_mat,
-                            "Esphagus1");
-
-for (G4int iznum = 0; iznum < z_num ; iznum = iznum+1){
-    for (G4int ianglenum = 0; ianglenum < angle_num ; ianglenum = ianglenum+1){
-        G4double angle = ianglenum*dangle;
-        G4RotationMatrix rotm  = G4RotationMatrix();
-        rotm.rotateZ(angle);
-        G4ThreeVector position = G4ThreeVector(0.*cm,0.*cm,z_pos + iznum*hz1);
-        G4Transform3D transform = G4Transform3D(rotm,position);
-        new G4PVPlacement(transform,
-                          logicEsphagus1,
-                          "Esphagus1",
-                          logicBody,
-                          false,
-                          iznum*angle_num+ianglenum,
-                          checkOverlaps);               
-}}         
-    //Esphagus2
-    G4double hz2 = 9.5*cm;
-    
-    G4Tubs* solidEsphagus2 = new G4Tubs("Esphagus2", 
-                                        innerRadius, 
-                                        outerRadius, 
-                                        0.5*hz2,
-                                        startAngle,
-                                        spanningAngle);
-
-    G4LogicalVolume* logicEsphagus2 = 
-        new G4LogicalVolume(solidEsphagus2,
-                            Esphagus_mat,
-                            "Esphagus2");
-
-        new G4PVPlacement(0,
-                          G4ThreeVector(0.*cm,0.*cm,-6.25*cm),
-                          logicEsphagus2,
-                          "Esphagus2",
-                          logicBody,
-                          false,
-                          0,
-                          checkOverlaps);
-
-    //Esphagus3
-    G4double hz3 = 9.5*cm;
-    
-    G4Tubs* solidEsphagus3 = new G4Tubs("Esphagus3", 
-                                        innerRadius, 
-                                        outerRadius, 
-                                        0.5*hz3,
-                                        startAngle,
-                                        spanningAngle);
-
-    G4LogicalVolume* logicEsphagus3 = 
-        new G4LogicalVolume(solidEsphagus3,
-                            Esphagus_mat,
-                            "Esphagus3");
-
-        new G4PVPlacement(0,
-                          G4ThreeVector(0.*cm,0.*cm,6.25*cm),
-                          logicEsphagus3,
-                          "Esphagus3",
-                          logicBody,
-                          false,
-                          0,
-                          checkOverlaps);
-                    
-
-    // ring  length = 1.5cm radius = 0.25cm
-    //Esphagus
-    G4double innerRadius_ring = 0.*cm;
-    G4double outerRadius_ring = 0.125*cm;
-    G4double hz_ring = 1.5*cm;
-    G4double startAngle_ring = 0.*deg;
-    G4double spanningAngle_ring = 360.*deg;
-    
-    G4Tubs* solidRing = new G4Tubs("Ring", 
-                                    innerRadius_ring, 
-                                    outerRadius_ring, 
-                                    0.5*hz_ring,
-                                    startAngle_ring,
-                                    spanningAngle_ring);
-
-    G4LogicalVolume* logicRing = 
-        new G4LogicalVolume(solidRing,
-                            Iron,
-                            "Ring");
-
-        new G4PVPlacement(0,
-                          G4ThreeVector(0.*cm,0.*cm,0.*cm),
-                          logicRing,
-                          "Ring",
-                          logicBody,
-                          false,
-                          0,
-                    checkOverlaps);
     fScoringVolume = logicEsphagus1;
 
     return physWorld;
