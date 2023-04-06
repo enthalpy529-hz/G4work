@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "plot.C": "cpp",
+        "molecule.C": "cpp",
+        "analysis.C": "cpp",
+        "plot1.C": "cpp",
+        "analysis1.C": "cpp"
+    }
+}

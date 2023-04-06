@@ -1,0 +1,8 @@
+/home/medphys/geant4.10.07.p03-install/share/Geant4-10.7.4/examples/extended/medical/dna/chem6/build/CMakeFiles/chem6.dir
+/home/medphys/geant4.10.07.p03-install/share/Geant4-10.7.4/examples/extended/medical/dna/chem6/build/CMakeFiles/chem6_proj.dir
+/home/medphys/geant4.10.07.p03-install/share/Geant4-10.7.4/examples/extended/medical/dna/chem6/build/CMakeFiles/edit_cache.dir
+/home/medphys/geant4.10.07.p03-install/share/Geant4-10.7.4/examples/extended/medical/dna/chem6/build/CMakeFiles/rebuild_cache.dir
+/home/medphys/geant4.10.07.p03-install/share/Geant4-10.7.4/examples/extended/medical/dna/chem6/build/CMakeFiles/list_install_components.dir
+/home/medphys/geant4.10.07.p03-install/share/Geant4-10.7.4/examples/extended/medical/dna/chem6/build/CMakeFiles/install.dir
+/home/medphys/geant4.10.07.p03-install/share/Geant4-10.7.4/examples/extended/medical/dna/chem6/build/CMakeFiles/install/local.dir
+/home/medphys/geant4.10.07.p03-install/share/Geant4-10.7.4/examples/extended/medical/dna/chem6/build/CMakeFiles/install/strip.dir

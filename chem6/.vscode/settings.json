@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "plotG_time.C": "cpp",
+        "plotG_LET.C": "cpp"
+    }
+}

@@ -1,0 +1,8 @@
+/home/medphys/G4work/chem6/750ke-/CMakeFiles/chem6.dir
+/home/medphys/G4work/chem6/750ke-/CMakeFiles/chem6_proj.dir
+/home/medphys/G4work/chem6/750ke-/CMakeFiles/edit_cache.dir
+/home/medphys/G4work/chem6/750ke-/CMakeFiles/rebuild_cache.dir
+/home/medphys/G4work/chem6/750ke-/CMakeFiles/list_install_components.dir
+/home/medphys/G4work/chem6/750ke-/CMakeFiles/install.dir
+/home/medphys/G4work/chem6/750ke-/CMakeFiles/install/local.dir
+/home/medphys/G4work/chem6/750ke-/CMakeFiles/install/strip.dir
