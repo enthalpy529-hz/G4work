@@ -113,6 +113,9 @@ void TimeStepAction::UserReactionAction(const G4Track& trackA,
         return;
     }
     
+        G4cout<< GetMolecule(DNAElement)->GetName()<<" "<<
+            GetMolecule(radical)->GetName()<<"\n"<<G4endl;
+    
     G4AnalysisManager* analysisManager = 
     G4AnalysisManager::Instance();
     analysisManager->FillNtupleDColumn(2, 0, 

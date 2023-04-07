@@ -1,0 +1,7 @@
+/home/medphys/G4work/chem2/test/CMakeFiles/chem2.dir
+/home/medphys/G4work/chem2/test/CMakeFiles/edit_cache.dir
+/home/medphys/G4work/chem2/test/CMakeFiles/rebuild_cache.dir
+/home/medphys/G4work/chem2/test/CMakeFiles/list_install_components.dir
+/home/medphys/G4work/chem2/test/CMakeFiles/install.dir
+/home/medphys/G4work/chem2/test/CMakeFiles/install/local.dir
+/home/medphys/G4work/chem2/test/CMakeFiles/install/strip.dir

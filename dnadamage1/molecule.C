@@ -10,7 +10,7 @@
 
 #include <iostream>
 #include "TROOT.h"
-#include "../include/DNAVolumeType.hh"
+#include "../dnadamage1/include/DNAVolumeType.hh"
 using namespace std;
 
 template<typename T>  

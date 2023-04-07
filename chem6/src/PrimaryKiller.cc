@@ -70,7 +70,7 @@ PrimaryKiller::PrimaryKiller(G4String name, G4int depth)
   fELossRange_Min = DBL_MAX; // fELoss from which the primary is killed
   fELossRange_Max = DBL_MAX; // fELoss from which the event is aborted
   fKineticE_Min = 0; // kinetic energy below which the primary is killed
-  fPhantomSize = G4ThreeVector(10*cm,10*cm,10*cm);
+  fPhantomSize = G4ThreeVector(1*km,1*km,1*km);
 
   fpELossUI = new G4UIcmdWithADoubleAndUnit("/primaryKiller/eLossMin",this);
   fpAbortEventIfELossUpperThan =

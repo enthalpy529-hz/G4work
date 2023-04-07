@@ -1,6 +1,10 @@
 {
     "files.associations": {
         "plotG_time.C": "cpp",
-        "plotG_LET.C": "cpp"
+        "plotG_LET.C": "cpp",
+        "*.icc": "cpp",
+        "molecule.C": "cpp",
+        "plot.C": "cpp",
+        "analysis.C": "cpp"
     }
 }

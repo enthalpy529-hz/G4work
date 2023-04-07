@@ -1,0 +1,8 @@
+/home/medphys/program/geant4/geant4_10_07_p04/examples/basic/B1/build/CMakeFiles/exampleB1.dir
+/home/medphys/program/geant4/geant4_10_07_p04/examples/basic/B1/build/CMakeFiles/B1.dir
+/home/medphys/program/geant4/geant4_10_07_p04/examples/basic/B1/build/CMakeFiles/edit_cache.dir
+/home/medphys/program/geant4/geant4_10_07_p04/examples/basic/B1/build/CMakeFiles/rebuild_cache.dir
+/home/medphys/program/geant4/geant4_10_07_p04/examples/basic/B1/build/CMakeFiles/list_install_components.dir
+/home/medphys/program/geant4/geant4_10_07_p04/examples/basic/B1/build/CMakeFiles/install.dir
+/home/medphys/program/geant4/geant4_10_07_p04/examples/basic/B1/build/CMakeFiles/install/local.dir
+/home/medphys/program/geant4/geant4_10_07_p04/examples/basic/B1/build/CMakeFiles/install/strip.dir

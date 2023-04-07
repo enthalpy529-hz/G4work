@@ -57,10 +57,10 @@ RM = /home/medphys/program/cmake-3.25.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/medphys/geant4.10.07.p03-install/share/Geant4-10.7.4/examples/extended/medical/dna/chem6
+CMAKE_SOURCE_DIR = /home/medphys/G4work/dna/chem6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/medphys/geant4.10.07.p03-install/share/Geant4-10.7.4/examples/extended/medical/dna/chem6/build
+CMAKE_BINARY_DIR = /home/medphys/G4work/dna/chem6/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/medphys/geant4.10.07.p03-install/share/Geant4-10.7.4/examples/extended/medical/dna/chem6/build/CMakeFiles /home/medphys/geant4.10.07.p03-install/share/Geant4-10.7.4/examples/extended/medical/dna/chem6/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/medphys/G4work/dna/chem6/build/CMakeFiles /home/medphys/G4work/dna/chem6/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/medphys/geant4.10.07.p03-install/share/Geant4-10.7.4/examples/extended/medical/dna/chem6/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/medphys/G4work/dna/chem6/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

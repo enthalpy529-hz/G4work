@@ -249,13 +249,12 @@
 //Damage (SDD) Data Format. Radiation Research, 191(1), 76. 
 
         bool Primaryflag = true;
-    for (int i = 0; i < 1000; i++)//for 200 primary particles
+    for (int i = 0; i < 200; i++)//for 200 primary particles
     {
         for(int j = 0; j < 2; j++)//for strand
         {
             const std::string positionAndCopyN = "; 0, 0, 0; 3, 0, 0, ";
             const std::string SSBType = " 0, 1, 0";
-  
             if (!resultPhysTable[i][j].empty())
             {
                 for(int e = 0; e < resultPhysTable[i][j].size(); ++e)

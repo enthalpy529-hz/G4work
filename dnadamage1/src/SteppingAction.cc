@@ -58,6 +58,7 @@ SteppingAction::~SteppingAction()
 
 void SteppingAction::UserSteppingAction(const G4Step* step)
 {
+    
     SetupFlags(step);
     
     if(fVolumeType == DNAVolumeType::physWorld)

@@ -95,6 +95,16 @@ void RunAction::CreateNtuple(const G4String& name)
     analysisManager->CreateNtupleIColumn(2,"EventID");
     analysisManager->FinishNtuple(2);
 
+    // For analyse
+/*
+    analysisManager->CreateNtuple("ntuple_3","dose_stage");
+    analysisManager->CreateNtupleDColumn(3,"x");
+    analysisManager->CreateNtupleDColumn(3,"y");
+    analysisManager->CreateNtupleDColumn(3,"z");
+    analysisManager->CreateNtupleSColumn(3,"RadName");
+    analysisManager->CreateNtupleIColumn(3,"EventID");
+    analysisManager->FinishNtuple(2);
+*/
     G4cout << "\n----> Histogram file is opened in " << name << G4endl;
 }
 

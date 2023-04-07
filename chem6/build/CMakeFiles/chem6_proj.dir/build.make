@@ -53,10 +53,10 @@ RM = /home/medphys/program/cmake-3.25.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/medphys/geant4.10.07.p03-install/share/Geant4-10.7.4/examples/extended/medical/dna/chem6
+CMAKE_SOURCE_DIR = /home/medphys/G4work/dna/chem6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/medphys/geant4.10.07.p03-install/share/Geant4-10.7.4/examples/extended/medical/dna/chem6/build
+CMAKE_BINARY_DIR = /home/medphys/G4work/dna/chem6/build
 
 # Utility rule file for chem6_proj.
 
@@ -81,6 +81,6 @@ CMakeFiles/chem6_proj.dir/clean:
 .PHONY : CMakeFiles/chem6_proj.dir/clean
 
 CMakeFiles/chem6_proj.dir/depend:
-	cd /home/medphys/geant4.10.07.p03-install/share/Geant4-10.7.4/examples/extended/medical/dna/chem6/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/medphys/geant4.10.07.p03-install/share/Geant4-10.7.4/examples/extended/medical/dna/chem6 /home/medphys/geant4.10.07.p03-install/share/Geant4-10.7.4/examples/extended/medical/dna/chem6 /home/medphys/geant4.10.07.p03-install/share/Geant4-10.7.4/examples/extended/medical/dna/chem6/build /home/medphys/geant4.10.07.p03-install/share/Geant4-10.7.4/examples/extended/medical/dna/chem6/build /home/medphys/geant4.10.07.p03-install/share/Geant4-10.7.4/examples/extended/medical/dna/chem6/build/CMakeFiles/chem6_proj.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/medphys/G4work/dna/chem6/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/medphys/G4work/dna/chem6 /home/medphys/G4work/dna/chem6 /home/medphys/G4work/dna/chem6/build /home/medphys/G4work/dna/chem6/build /home/medphys/G4work/dna/chem6/build/CMakeFiles/chem6_proj.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/chem6_proj.dir/depend
 

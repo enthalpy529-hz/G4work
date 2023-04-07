@@ -1,4 +1,3 @@
-
 {
   struct SpeciesInfoAOS
   {
@@ -10,8 +9,7 @@
       fG2 = 0.;
     }
 
-  
-	SpeciesInfoAOS(const SpeciesInfoAOS& right) // Species A(B);
+    SpeciesInfoAOS(const SpeciesInfoAOS& right) // Species A(B);
     {
       fNEvent = right.fNEvent;
       fNumber = right.fNumber;
@@ -85,7 +83,6 @@
     0, 0
   };
 
-//确定参数
   gROOT->Reset();
 
   gROOT->SetStyle("Plain");
@@ -125,12 +122,10 @@
 
   std::map<int, std::map<double, SpeciesInfoAOS>> speciesTimeInfo;
 
-  ofstream ofile("data.txt");
   for (Int_t j=0; j < nentries; j++)
   {
     tree->GetEntry(j);
 
-    ofile<<speciesID<<" "<<number<< " "<<nEvent<<" "<<speciesName<< " "<<timeA<<" "<<sumG<<'\n';
     SpeciesInfoAOS& infoAOS = speciesTimeInfo[speciesID][timeA];
 
     infoAOS.fNumber += number;
@@ -140,7 +135,6 @@
     infoAOS.fName = speciesName;
   }
 
-  ofile<<endl;
   std::map<Int_t, SpeciesInfoSOA> speciesInfo;
 
   auto it_SOA = speciesTimeInfo.begin();
@@ -236,4 +230,3 @@ void Save(){
   new TGFileDialog(gClient->GetRoot(),gClient->GetRoot(),kFDSave,&fi);
   gROOT->GetListOfCanvases()->At(fTab->GetCurrent())->SaveAs(fi.fFilename);
 }
-
