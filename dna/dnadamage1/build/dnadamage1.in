@@ -7,4 +7,4 @@
 /scheduler/maxNullTimeSteps 50
 #/scheduler/verbose 2
 #/scheduler/whyDoYouStop
-/run/beamOn 1
+/run/beamOn 2

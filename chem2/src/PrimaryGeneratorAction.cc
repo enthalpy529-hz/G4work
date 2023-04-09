@@ -50,22 +50,23 @@ PrimaryGeneratorAction::PrimaryGeneratorAction() :
 {
   G4ParticleDefinition* particle =
       G4ParticleTable::GetParticleTable()->FindParticle("proton");
-
+/*
 std::ifstream file("energy.txt");
 
     // 检查文件是否成功打开
     if (!file.is_open()) {
-        std::cerr << "Failed to open file." << std::endl;
+        std::cerr << "Failed1 to open file." << std::endl;
         return;
     }
     G4double energy;
   file>>energy;
+*/
   // default gun parameters
   fpParticleGun->SetParticleDefinition(particle);
-  fpParticleGun->SetParticleEnergy(energy*MeV);
+  //fpParticleGun->SetParticleEnergy(energy*MeV);
   fpParticleGun->SetParticleMomentumDirection(G4ThreeVector(0.,0.,1.));
   fpParticleGun->SetParticlePosition(G4ThreeVector(0.,0.,0.*micrometer));
-  file.close();
+//  file.close();
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -81,8 +82,11 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
 {
     G4double randomx = -1 + 2*G4UniformRand();
     G4double randomy = -1 + 2*G4UniformRand();
+    /*
     fpParticleGun->SetParticlePosition(G4ThreeVector(0.5*randomx*CLHEP::mm,
                                                      0.5*randomy*CLHEP::mm,
                                                      -0.5*CLHEP::m));
+    */    
+   fpParticleGun->SetParticlePosition(G4ThreeVector(0,0,0));
   fpParticleGun->GeneratePrimaryVertex(anEvent);
 }

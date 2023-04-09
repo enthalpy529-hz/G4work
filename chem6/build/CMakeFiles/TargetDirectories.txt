@@ -1,8 +1,8 @@
-/home/medphys/G4work/dna/chem6/build/CMakeFiles/chem6.dir
-/home/medphys/G4work/dna/chem6/build/CMakeFiles/chem6_proj.dir
-/home/medphys/G4work/dna/chem6/build/CMakeFiles/edit_cache.dir
-/home/medphys/G4work/dna/chem6/build/CMakeFiles/rebuild_cache.dir
-/home/medphys/G4work/dna/chem6/build/CMakeFiles/list_install_components.dir
-/home/medphys/G4work/dna/chem6/build/CMakeFiles/install.dir
-/home/medphys/G4work/dna/chem6/build/CMakeFiles/install/local.dir
-/home/medphys/G4work/dna/chem6/build/CMakeFiles/install/strip.dir
+/home/medphys/G4work/chem6/build/CMakeFiles/chem6.dir
+/home/medphys/G4work/chem6/build/CMakeFiles/chem6_proj.dir
+/home/medphys/G4work/chem6/build/CMakeFiles/edit_cache.dir
+/home/medphys/G4work/chem6/build/CMakeFiles/rebuild_cache.dir
+/home/medphys/G4work/chem6/build/CMakeFiles/list_install_components.dir
+/home/medphys/G4work/chem6/build/CMakeFiles/install.dir
+/home/medphys/G4work/chem6/build/CMakeFiles/install/local.dir
+/home/medphys/G4work/chem6/build/CMakeFiles/install/strip.dir

@@ -62,25 +62,31 @@ void  SteppingAction::UserSteppingAction(const G4Step* step)
     fScoringVolume = detectorConstruction->GetScoringVolume();   
   }
 */
+  
+  if (!step){
+    G4cout << "!"<<G4endl;
+    return;
+  }
   // get volume of the current step
   G4int Copyno
     = step->GetPreStepPoint()->GetTouchableHandle()
       ->GetVolume()->GetCopyNo();
-      
+  
+   
   // check if we are in scoring volume
-  if (Copyno == 0) return;
+  //if (Copyno == 0) return;
 
   G4double length = step->GetStepLength()/CLHEP::nm;
   
   //G4double x = step->GetPreStepPoint()->GetPosition();
   // collect energy deposited in this step
   G4double edepStep = step->GetTotalEnergyDeposit();
-  G4double z_pre = step->GetPreStepPoint()->GetPosition().z()/CLHEP::mm;
-  G4double z_post = step->GetPostStepPoint()->GetPosition().z()/CLHEP::mm;
+  G4double z_pre = step->GetPreStepPoint()->GetPosition().z()/CLHEP::nm;
+  G4double z_post = step->GetPostStepPoint()->GetPosition().z()/CLHEP::nm;
   G4double z = z_post-z_pre;
 std::ofstream outputFile("output.txt",std::ios_base::app);
   if(edepStep!=0){
-  outputFile<< Copyno << " "<< z <<" "<< length<<" "<<edepStep/CLHEP::eV<<G4endl;
+  outputFile<< Copyno << " "<< z_pre <<" "<< z_post<<" "<< length<<" "<<edepStep/CLHEP::eV<<G4endl;
   }
   outputFile.close();
   fEventAction->AddEdep(edepStep);  

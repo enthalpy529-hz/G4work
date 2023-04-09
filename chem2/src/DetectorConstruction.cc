@@ -115,7 +115,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructDetector()
           0,      //its mother  volume
           false,      //no boolean operation
           0);      //copy number
-
+/*
     double score_X = 1*mm;
     double score_Y = 1*mm;
     double score_Z = 1*mm;
@@ -138,7 +138,7 @@ G4VPhysicalVolume* DetectorConstruction::ConstructDetector()
                     false,                   //no boolean operation
                     i+1,                       //copy number
                     checkOverlaps);          //overlaps checking   
-  }
+  }*/
   fScoringVolume = logicWorld;
   return physiWorld;
 }

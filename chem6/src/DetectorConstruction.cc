@@ -84,8 +84,11 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   //
   // World
   //
-  double world_sizeXYZ = 400*nm;
-  
+  //double world_sizeXYZ = 400*nm;
+
+
+  double world_sizeXYZ = 1*m;
+  //double world_Z = 10*nm;
   G4Box* solidWorld =
   new G4Box("World",
             0.5*world_sizeXYZ,
@@ -96,17 +99,42 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   new G4LogicalVolume(solidWorld,
                       water,
                       "World");
-  
+
+  G4ThreeVector pos1 = G4ThreeVector(0,0,0);
   G4VPhysicalVolume* physWorld =
   new G4PVPlacement(0,                     //no rotation
-                    G4ThreeVector(),       //its position at (0,0,0)
+                    pos1,       //its position at (0,0,0)
                     logicWorld,            //its logical volume
                     "World",               //its name
                     0,                     //its mother  volume
                     false,                 //no boolean operation
                     0,                     //copy number
                     true);                 //checking overlaps
+  
+  
+  double score_sizeXYZ = 400*nm;
 
+  G4ThreeVector pos2 = G4ThreeVector(0,0,score_sizeXYZ/2);
+  G4Box* solidscore =
+  new G4Box("score",
+            0.5*score_sizeXYZ,
+            0.5*score_sizeXYZ,
+            0.5*score_sizeXYZ);
+  
+  G4LogicalVolume* logicscore =
+  new G4LogicalVolume(solidscore,
+                      water,
+                      "score");
+  
+  G4VPhysicalVolume* physscore =
+  new G4PVPlacement(0,                     //no rotation
+                    pos2,       //its position at (0,0,0)
+                    logicscore,            //its logical volume
+                    "score",               //its name
+                    0,                     //its mother  volume
+                    false,                 //no boolean operation
+                    0,                     //copy number
+                    true);                 //checking overlaps
   // Visualization attributes
   G4VisAttributes* worldVisAtt = new G4VisAttributes(G4Colour(.5, 1.0, .5));
   worldVisAtt->SetVisibility(true);
@@ -152,7 +180,7 @@ void DetectorConstruction::ConstructSDandField()
   mfDetector->RegisterPrimitive(primitivSpecies);
 
   G4SDManager::GetSDMpointer()->AddNewDetector(mfDetector); 
-  SetSensitiveDetector("World", mfDetector);
+  SetSensitiveDetector("score", mfDetector);
 
 }
 

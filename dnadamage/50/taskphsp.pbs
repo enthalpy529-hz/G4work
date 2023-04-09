@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -N test
+#PBS -l nodes=1:ppn=1
+#PBS -l walltime=720:00:00
+#PBS -j oe
+#PBS -V
+
+
+cd $PBS_O_WORKDIR
+cat $PBS_NODEFILE $PBS_NODEFILE>NODEFILE
+mpirun -np 1 ./dnadamage1 dnadamage.in

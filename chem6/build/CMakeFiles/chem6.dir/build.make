@@ -53,10 +53,10 @@ RM = /home/medphys/program/cmake-3.25.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/medphys/G4work/dna/chem6
+CMAKE_SOURCE_DIR = /home/medphys/G4work/chem6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/medphys/G4work/dna/chem6/build
+CMAKE_BINARY_DIR = /home/medphys/G4work/chem6/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/chem6.dir/depend.make
@@ -70,172 +70,172 @@ include CMakeFiles/chem6.dir/progress.make
 include CMakeFiles/chem6.dir/flags.make
 
 CMakeFiles/chem6.dir/chem6.cc.o: CMakeFiles/chem6.dir/flags.make
-CMakeFiles/chem6.dir/chem6.cc.o: /home/medphys/G4work/dna/chem6/chem6.cc
+CMakeFiles/chem6.dir/chem6.cc.o: /home/medphys/G4work/chem6/chem6.cc
 CMakeFiles/chem6.dir/chem6.cc.o: CMakeFiles/chem6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/dna/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/chem6.dir/chem6.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/chem6.cc.o -MF CMakeFiles/chem6.dir/chem6.cc.o.d -o CMakeFiles/chem6.dir/chem6.cc.o -c /home/medphys/G4work/dna/chem6/chem6.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/chem6.dir/chem6.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/chem6.cc.o -MF CMakeFiles/chem6.dir/chem6.cc.o.d -o CMakeFiles/chem6.dir/chem6.cc.o -c /home/medphys/G4work/chem6/chem6.cc
 
 CMakeFiles/chem6.dir/chem6.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chem6.dir/chem6.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/dna/chem6/chem6.cc > CMakeFiles/chem6.dir/chem6.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/chem6/chem6.cc > CMakeFiles/chem6.dir/chem6.cc.i
 
 CMakeFiles/chem6.dir/chem6.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chem6.dir/chem6.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/dna/chem6/chem6.cc -o CMakeFiles/chem6.dir/chem6.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/chem6/chem6.cc -o CMakeFiles/chem6.dir/chem6.cc.s
 
 CMakeFiles/chem6.dir/src/ActionInitialization.cc.o: CMakeFiles/chem6.dir/flags.make
-CMakeFiles/chem6.dir/src/ActionInitialization.cc.o: /home/medphys/G4work/dna/chem6/src/ActionInitialization.cc
+CMakeFiles/chem6.dir/src/ActionInitialization.cc.o: /home/medphys/G4work/chem6/src/ActionInitialization.cc
 CMakeFiles/chem6.dir/src/ActionInitialization.cc.o: CMakeFiles/chem6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/dna/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/chem6.dir/src/ActionInitialization.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/ActionInitialization.cc.o -MF CMakeFiles/chem6.dir/src/ActionInitialization.cc.o.d -o CMakeFiles/chem6.dir/src/ActionInitialization.cc.o -c /home/medphys/G4work/dna/chem6/src/ActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/chem6.dir/src/ActionInitialization.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/ActionInitialization.cc.o -MF CMakeFiles/chem6.dir/src/ActionInitialization.cc.o.d -o CMakeFiles/chem6.dir/src/ActionInitialization.cc.o -c /home/medphys/G4work/chem6/src/ActionInitialization.cc
 
 CMakeFiles/chem6.dir/src/ActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chem6.dir/src/ActionInitialization.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/dna/chem6/src/ActionInitialization.cc > CMakeFiles/chem6.dir/src/ActionInitialization.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/chem6/src/ActionInitialization.cc > CMakeFiles/chem6.dir/src/ActionInitialization.cc.i
 
 CMakeFiles/chem6.dir/src/ActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chem6.dir/src/ActionInitialization.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/dna/chem6/src/ActionInitialization.cc -o CMakeFiles/chem6.dir/src/ActionInitialization.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/chem6/src/ActionInitialization.cc -o CMakeFiles/chem6.dir/src/ActionInitialization.cc.s
 
 CMakeFiles/chem6.dir/src/DetectorConstruction.cc.o: CMakeFiles/chem6.dir/flags.make
-CMakeFiles/chem6.dir/src/DetectorConstruction.cc.o: /home/medphys/G4work/dna/chem6/src/DetectorConstruction.cc
+CMakeFiles/chem6.dir/src/DetectorConstruction.cc.o: /home/medphys/G4work/chem6/src/DetectorConstruction.cc
 CMakeFiles/chem6.dir/src/DetectorConstruction.cc.o: CMakeFiles/chem6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/dna/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/chem6.dir/src/DetectorConstruction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/chem6.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/chem6.dir/src/DetectorConstruction.cc.o -c /home/medphys/G4work/dna/chem6/src/DetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/chem6.dir/src/DetectorConstruction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/chem6.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/chem6.dir/src/DetectorConstruction.cc.o -c /home/medphys/G4work/chem6/src/DetectorConstruction.cc
 
 CMakeFiles/chem6.dir/src/DetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chem6.dir/src/DetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/dna/chem6/src/DetectorConstruction.cc > CMakeFiles/chem6.dir/src/DetectorConstruction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/chem6/src/DetectorConstruction.cc > CMakeFiles/chem6.dir/src/DetectorConstruction.cc.i
 
 CMakeFiles/chem6.dir/src/DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chem6.dir/src/DetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/dna/chem6/src/DetectorConstruction.cc -o CMakeFiles/chem6.dir/src/DetectorConstruction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/chem6/src/DetectorConstruction.cc -o CMakeFiles/chem6.dir/src/DetectorConstruction.cc.s
 
 CMakeFiles/chem6.dir/src/PhysicsList.cc.o: CMakeFiles/chem6.dir/flags.make
-CMakeFiles/chem6.dir/src/PhysicsList.cc.o: /home/medphys/G4work/dna/chem6/src/PhysicsList.cc
+CMakeFiles/chem6.dir/src/PhysicsList.cc.o: /home/medphys/G4work/chem6/src/PhysicsList.cc
 CMakeFiles/chem6.dir/src/PhysicsList.cc.o: CMakeFiles/chem6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/dna/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/chem6.dir/src/PhysicsList.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/PhysicsList.cc.o -MF CMakeFiles/chem6.dir/src/PhysicsList.cc.o.d -o CMakeFiles/chem6.dir/src/PhysicsList.cc.o -c /home/medphys/G4work/dna/chem6/src/PhysicsList.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/chem6.dir/src/PhysicsList.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/PhysicsList.cc.o -MF CMakeFiles/chem6.dir/src/PhysicsList.cc.o.d -o CMakeFiles/chem6.dir/src/PhysicsList.cc.o -c /home/medphys/G4work/chem6/src/PhysicsList.cc
 
 CMakeFiles/chem6.dir/src/PhysicsList.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chem6.dir/src/PhysicsList.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/dna/chem6/src/PhysicsList.cc > CMakeFiles/chem6.dir/src/PhysicsList.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/chem6/src/PhysicsList.cc > CMakeFiles/chem6.dir/src/PhysicsList.cc.i
 
 CMakeFiles/chem6.dir/src/PhysicsList.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chem6.dir/src/PhysicsList.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/dna/chem6/src/PhysicsList.cc -o CMakeFiles/chem6.dir/src/PhysicsList.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/chem6/src/PhysicsList.cc -o CMakeFiles/chem6.dir/src/PhysicsList.cc.s
 
 CMakeFiles/chem6.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/chem6.dir/flags.make
-CMakeFiles/chem6.dir/src/PrimaryGeneratorAction.cc.o: /home/medphys/G4work/dna/chem6/src/PrimaryGeneratorAction.cc
+CMakeFiles/chem6.dir/src/PrimaryGeneratorAction.cc.o: /home/medphys/G4work/chem6/src/PrimaryGeneratorAction.cc
 CMakeFiles/chem6.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/chem6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/dna/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/chem6.dir/src/PrimaryGeneratorAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/chem6.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/chem6.dir/src/PrimaryGeneratorAction.cc.o -c /home/medphys/G4work/dna/chem6/src/PrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/chem6.dir/src/PrimaryGeneratorAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/chem6.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/chem6.dir/src/PrimaryGeneratorAction.cc.o -c /home/medphys/G4work/chem6/src/PrimaryGeneratorAction.cc
 
 CMakeFiles/chem6.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chem6.dir/src/PrimaryGeneratorAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/dna/chem6/src/PrimaryGeneratorAction.cc > CMakeFiles/chem6.dir/src/PrimaryGeneratorAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/chem6/src/PrimaryGeneratorAction.cc > CMakeFiles/chem6.dir/src/PrimaryGeneratorAction.cc.i
 
 CMakeFiles/chem6.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chem6.dir/src/PrimaryGeneratorAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/dna/chem6/src/PrimaryGeneratorAction.cc -o CMakeFiles/chem6.dir/src/PrimaryGeneratorAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/chem6/src/PrimaryGeneratorAction.cc -o CMakeFiles/chem6.dir/src/PrimaryGeneratorAction.cc.s
 
 CMakeFiles/chem6.dir/src/PrimaryKiller.cc.o: CMakeFiles/chem6.dir/flags.make
-CMakeFiles/chem6.dir/src/PrimaryKiller.cc.o: /home/medphys/G4work/dna/chem6/src/PrimaryKiller.cc
+CMakeFiles/chem6.dir/src/PrimaryKiller.cc.o: /home/medphys/G4work/chem6/src/PrimaryKiller.cc
 CMakeFiles/chem6.dir/src/PrimaryKiller.cc.o: CMakeFiles/chem6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/dna/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/chem6.dir/src/PrimaryKiller.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/PrimaryKiller.cc.o -MF CMakeFiles/chem6.dir/src/PrimaryKiller.cc.o.d -o CMakeFiles/chem6.dir/src/PrimaryKiller.cc.o -c /home/medphys/G4work/dna/chem6/src/PrimaryKiller.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/chem6.dir/src/PrimaryKiller.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/PrimaryKiller.cc.o -MF CMakeFiles/chem6.dir/src/PrimaryKiller.cc.o.d -o CMakeFiles/chem6.dir/src/PrimaryKiller.cc.o -c /home/medphys/G4work/chem6/src/PrimaryKiller.cc
 
 CMakeFiles/chem6.dir/src/PrimaryKiller.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chem6.dir/src/PrimaryKiller.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/dna/chem6/src/PrimaryKiller.cc > CMakeFiles/chem6.dir/src/PrimaryKiller.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/chem6/src/PrimaryKiller.cc > CMakeFiles/chem6.dir/src/PrimaryKiller.cc.i
 
 CMakeFiles/chem6.dir/src/PrimaryKiller.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chem6.dir/src/PrimaryKiller.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/dna/chem6/src/PrimaryKiller.cc -o CMakeFiles/chem6.dir/src/PrimaryKiller.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/chem6/src/PrimaryKiller.cc -o CMakeFiles/chem6.dir/src/PrimaryKiller.cc.s
 
 CMakeFiles/chem6.dir/src/Run.cc.o: CMakeFiles/chem6.dir/flags.make
-CMakeFiles/chem6.dir/src/Run.cc.o: /home/medphys/G4work/dna/chem6/src/Run.cc
+CMakeFiles/chem6.dir/src/Run.cc.o: /home/medphys/G4work/chem6/src/Run.cc
 CMakeFiles/chem6.dir/src/Run.cc.o: CMakeFiles/chem6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/dna/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/chem6.dir/src/Run.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/Run.cc.o -MF CMakeFiles/chem6.dir/src/Run.cc.o.d -o CMakeFiles/chem6.dir/src/Run.cc.o -c /home/medphys/G4work/dna/chem6/src/Run.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/chem6.dir/src/Run.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/Run.cc.o -MF CMakeFiles/chem6.dir/src/Run.cc.o.d -o CMakeFiles/chem6.dir/src/Run.cc.o -c /home/medphys/G4work/chem6/src/Run.cc
 
 CMakeFiles/chem6.dir/src/Run.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chem6.dir/src/Run.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/dna/chem6/src/Run.cc > CMakeFiles/chem6.dir/src/Run.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/chem6/src/Run.cc > CMakeFiles/chem6.dir/src/Run.cc.i
 
 CMakeFiles/chem6.dir/src/Run.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chem6.dir/src/Run.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/dna/chem6/src/Run.cc -o CMakeFiles/chem6.dir/src/Run.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/chem6/src/Run.cc -o CMakeFiles/chem6.dir/src/Run.cc.s
 
 CMakeFiles/chem6.dir/src/RunAction.cc.o: CMakeFiles/chem6.dir/flags.make
-CMakeFiles/chem6.dir/src/RunAction.cc.o: /home/medphys/G4work/dna/chem6/src/RunAction.cc
+CMakeFiles/chem6.dir/src/RunAction.cc.o: /home/medphys/G4work/chem6/src/RunAction.cc
 CMakeFiles/chem6.dir/src/RunAction.cc.o: CMakeFiles/chem6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/dna/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/chem6.dir/src/RunAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/RunAction.cc.o -MF CMakeFiles/chem6.dir/src/RunAction.cc.o.d -o CMakeFiles/chem6.dir/src/RunAction.cc.o -c /home/medphys/G4work/dna/chem6/src/RunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/chem6.dir/src/RunAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/RunAction.cc.o -MF CMakeFiles/chem6.dir/src/RunAction.cc.o.d -o CMakeFiles/chem6.dir/src/RunAction.cc.o -c /home/medphys/G4work/chem6/src/RunAction.cc
 
 CMakeFiles/chem6.dir/src/RunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chem6.dir/src/RunAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/dna/chem6/src/RunAction.cc > CMakeFiles/chem6.dir/src/RunAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/chem6/src/RunAction.cc > CMakeFiles/chem6.dir/src/RunAction.cc.i
 
 CMakeFiles/chem6.dir/src/RunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chem6.dir/src/RunAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/dna/chem6/src/RunAction.cc -o CMakeFiles/chem6.dir/src/RunAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/chem6/src/RunAction.cc -o CMakeFiles/chem6.dir/src/RunAction.cc.s
 
 CMakeFiles/chem6.dir/src/ScoreLET.cc.o: CMakeFiles/chem6.dir/flags.make
-CMakeFiles/chem6.dir/src/ScoreLET.cc.o: /home/medphys/G4work/dna/chem6/src/ScoreLET.cc
+CMakeFiles/chem6.dir/src/ScoreLET.cc.o: /home/medphys/G4work/chem6/src/ScoreLET.cc
 CMakeFiles/chem6.dir/src/ScoreLET.cc.o: CMakeFiles/chem6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/dna/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/chem6.dir/src/ScoreLET.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/ScoreLET.cc.o -MF CMakeFiles/chem6.dir/src/ScoreLET.cc.o.d -o CMakeFiles/chem6.dir/src/ScoreLET.cc.o -c /home/medphys/G4work/dna/chem6/src/ScoreLET.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/chem6.dir/src/ScoreLET.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/ScoreLET.cc.o -MF CMakeFiles/chem6.dir/src/ScoreLET.cc.o.d -o CMakeFiles/chem6.dir/src/ScoreLET.cc.o -c /home/medphys/G4work/chem6/src/ScoreLET.cc
 
 CMakeFiles/chem6.dir/src/ScoreLET.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chem6.dir/src/ScoreLET.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/dna/chem6/src/ScoreLET.cc > CMakeFiles/chem6.dir/src/ScoreLET.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/chem6/src/ScoreLET.cc > CMakeFiles/chem6.dir/src/ScoreLET.cc.i
 
 CMakeFiles/chem6.dir/src/ScoreLET.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chem6.dir/src/ScoreLET.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/dna/chem6/src/ScoreLET.cc -o CMakeFiles/chem6.dir/src/ScoreLET.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/chem6/src/ScoreLET.cc -o CMakeFiles/chem6.dir/src/ScoreLET.cc.s
 
 CMakeFiles/chem6.dir/src/ScoreSpecies.cc.o: CMakeFiles/chem6.dir/flags.make
-CMakeFiles/chem6.dir/src/ScoreSpecies.cc.o: /home/medphys/G4work/dna/chem6/src/ScoreSpecies.cc
+CMakeFiles/chem6.dir/src/ScoreSpecies.cc.o: /home/medphys/G4work/chem6/src/ScoreSpecies.cc
 CMakeFiles/chem6.dir/src/ScoreSpecies.cc.o: CMakeFiles/chem6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/dna/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/chem6.dir/src/ScoreSpecies.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/ScoreSpecies.cc.o -MF CMakeFiles/chem6.dir/src/ScoreSpecies.cc.o.d -o CMakeFiles/chem6.dir/src/ScoreSpecies.cc.o -c /home/medphys/G4work/dna/chem6/src/ScoreSpecies.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/chem6.dir/src/ScoreSpecies.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/ScoreSpecies.cc.o -MF CMakeFiles/chem6.dir/src/ScoreSpecies.cc.o.d -o CMakeFiles/chem6.dir/src/ScoreSpecies.cc.o -c /home/medphys/G4work/chem6/src/ScoreSpecies.cc
 
 CMakeFiles/chem6.dir/src/ScoreSpecies.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chem6.dir/src/ScoreSpecies.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/dna/chem6/src/ScoreSpecies.cc > CMakeFiles/chem6.dir/src/ScoreSpecies.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/chem6/src/ScoreSpecies.cc > CMakeFiles/chem6.dir/src/ScoreSpecies.cc.i
 
 CMakeFiles/chem6.dir/src/ScoreSpecies.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chem6.dir/src/ScoreSpecies.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/dna/chem6/src/ScoreSpecies.cc -o CMakeFiles/chem6.dir/src/ScoreSpecies.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/chem6/src/ScoreSpecies.cc -o CMakeFiles/chem6.dir/src/ScoreSpecies.cc.s
 
 CMakeFiles/chem6.dir/src/StackingAction.cc.o: CMakeFiles/chem6.dir/flags.make
-CMakeFiles/chem6.dir/src/StackingAction.cc.o: /home/medphys/G4work/dna/chem6/src/StackingAction.cc
+CMakeFiles/chem6.dir/src/StackingAction.cc.o: /home/medphys/G4work/chem6/src/StackingAction.cc
 CMakeFiles/chem6.dir/src/StackingAction.cc.o: CMakeFiles/chem6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/dna/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/chem6.dir/src/StackingAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/StackingAction.cc.o -MF CMakeFiles/chem6.dir/src/StackingAction.cc.o.d -o CMakeFiles/chem6.dir/src/StackingAction.cc.o -c /home/medphys/G4work/dna/chem6/src/StackingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/chem6.dir/src/StackingAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/StackingAction.cc.o -MF CMakeFiles/chem6.dir/src/StackingAction.cc.o.d -o CMakeFiles/chem6.dir/src/StackingAction.cc.o -c /home/medphys/G4work/chem6/src/StackingAction.cc
 
 CMakeFiles/chem6.dir/src/StackingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chem6.dir/src/StackingAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/dna/chem6/src/StackingAction.cc > CMakeFiles/chem6.dir/src/StackingAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/chem6/src/StackingAction.cc > CMakeFiles/chem6.dir/src/StackingAction.cc.i
 
 CMakeFiles/chem6.dir/src/StackingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chem6.dir/src/StackingAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/dna/chem6/src/StackingAction.cc -o CMakeFiles/chem6.dir/src/StackingAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/chem6/src/StackingAction.cc -o CMakeFiles/chem6.dir/src/StackingAction.cc.s
 
 CMakeFiles/chem6.dir/src/TimeStepAction.cc.o: CMakeFiles/chem6.dir/flags.make
-CMakeFiles/chem6.dir/src/TimeStepAction.cc.o: /home/medphys/G4work/dna/chem6/src/TimeStepAction.cc
+CMakeFiles/chem6.dir/src/TimeStepAction.cc.o: /home/medphys/G4work/chem6/src/TimeStepAction.cc
 CMakeFiles/chem6.dir/src/TimeStepAction.cc.o: CMakeFiles/chem6.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/dna/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/chem6.dir/src/TimeStepAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/TimeStepAction.cc.o -MF CMakeFiles/chem6.dir/src/TimeStepAction.cc.o.d -o CMakeFiles/chem6.dir/src/TimeStepAction.cc.o -c /home/medphys/G4work/dna/chem6/src/TimeStepAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/medphys/G4work/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/chem6.dir/src/TimeStepAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chem6.dir/src/TimeStepAction.cc.o -MF CMakeFiles/chem6.dir/src/TimeStepAction.cc.o.d -o CMakeFiles/chem6.dir/src/TimeStepAction.cc.o -c /home/medphys/G4work/chem6/src/TimeStepAction.cc
 
 CMakeFiles/chem6.dir/src/TimeStepAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chem6.dir/src/TimeStepAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/dna/chem6/src/TimeStepAction.cc > CMakeFiles/chem6.dir/src/TimeStepAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medphys/G4work/chem6/src/TimeStepAction.cc > CMakeFiles/chem6.dir/src/TimeStepAction.cc.i
 
 CMakeFiles/chem6.dir/src/TimeStepAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chem6.dir/src/TimeStepAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/dna/chem6/src/TimeStepAction.cc -o CMakeFiles/chem6.dir/src/TimeStepAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medphys/G4work/chem6/src/TimeStepAction.cc -o CMakeFiles/chem6.dir/src/TimeStepAction.cc.s
 
 # Object files for target chem6
 chem6_OBJECTS = \
@@ -315,7 +315,7 @@ chem6: /home/medphys/geant4.10.07.p03-install/lib/libG4global.so
 chem6: /home/medphys/geant4.10.07.p03-install/lib/libG4clhep.so
 chem6: /home/medphys/geant4.10.07.p03-install/lib/libG4ptl.so.0.0.2
 chem6: CMakeFiles/chem6.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/medphys/G4work/dna/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable chem6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/medphys/G4work/chem6/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable chem6"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chem6.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -327,6 +327,6 @@ CMakeFiles/chem6.dir/clean:
 .PHONY : CMakeFiles/chem6.dir/clean
 
 CMakeFiles/chem6.dir/depend:
-	cd /home/medphys/G4work/dna/chem6/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/medphys/G4work/dna/chem6 /home/medphys/G4work/dna/chem6 /home/medphys/G4work/dna/chem6/build /home/medphys/G4work/dna/chem6/build /home/medphys/G4work/dna/chem6/build/CMakeFiles/chem6.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/medphys/G4work/chem6/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/medphys/G4work/chem6 /home/medphys/G4work/chem6 /home/medphys/G4work/chem6/build /home/medphys/G4work/chem6/build /home/medphys/G4work/chem6/build/CMakeFiles/chem6.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/chem6.dir/depend
 
